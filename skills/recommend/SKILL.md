@@ -8,7 +8,7 @@ description: Recommend the three pins most worth doing next in this repo, with a
 Recommend three pins, best first, and let the user pick.
 
 1. Get the repo as `owner/name` from `git remote get-url origin`.
-2. Call `search_pins` with that `repo`, `sort: "leverage"`, `limit: 15`.
+2. Call `search_pins` with that `repo` and `limit: 15`. It lists open pins by priority.
 3. Boost pins that touch what the user is working on: list files changed on this branch (`git diff --name-only $(git merge-base HEAD origin/HEAD)`, or recent commits) and call `pins_near` with them.
-4. `pins_near` also returns claimed pins: drop those unless the user holds the claim. Prefer a mix: the best leverage, the riskiest open issue, and one near the current work.
+4. `pins_near` also returns claimed pins: drop those unless the user holds the claim. Prefer a mix: the highest priority, the riskiest open issue, and one near the current work. Skip a pin that's blocked by another open pin unless you recommend that one first.
 5. Reply with three lines, each: key, title, scope, and one sentence on why now. End by asking which one to start; don't claim anything until they choose.
