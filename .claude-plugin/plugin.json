@@ -1,6 +1,7 @@
 {
-  "name": "laterbase",
-  "description": "Laterbase in Claude Code: the MCP server, signed in with your account, and skills like /quick and /recommend.",
+  "name": "lb",
+  "displayName": "Laterbase",
+  "description": "Laterbase in Claude Code: the MCP server, signed in with your account, and skills like /lb:quick and /lb:recommend.",
   "author": {
     "name": "Laterbase",
     "url": "https://laterbase.dev"
