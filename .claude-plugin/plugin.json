@@ -1,0 +1,23 @@
+{
+  "name": "laterbase",
+  "description": "Laterbase in Claude Code: the MCP server, signed in with your account, and skills like /quick and /recommend.",
+  "author": {
+    "name": "Laterbase",
+    "url": "https://laterbase.dev"
+  },
+  "homepage": "https://laterbase.dev/docs/plugin",
+  "userConfig": {
+    "server_url": {
+      "type": "string",
+      "title": "Server URL",
+      "description": "Change it only to use a preview or local server.",
+      "default": "https://laterbase.dev"
+    }
+  },
+  "mcpServers": {
+    "laterbase": {
+      "type": "http",
+      "url": "${user_config.server_url}/mcp"
+    }
+  }
+}
