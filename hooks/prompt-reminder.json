@@ -1,0 +1,6 @@
+{
+  "hookSpecificOutput": {
+    "hookEventName": "UserPromptSubmit",
+    "additionalContext": "Laterbase: When work gets left for later, because you notice something out of scope worth doing or the user puts something off (\"let's do that later\"), pin it with `create_pin` straight away, without asking, and mention it in your next reply. Never leave it as a note in chat. When you start a task, call `pins_near` on the files it involves to see known issues there."
+  }
+}
