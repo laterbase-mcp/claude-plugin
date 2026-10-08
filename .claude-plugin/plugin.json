@@ -1,12 +1,16 @@
 {
   "name": "lb",
   "displayName": "Laterbase",
+  "version": "1.0.15",
   "description": "Laterbase in Claude Code: the MCP server, signed in with your account, and skills like /lb:quick and /lb:recommend.",
   "author": {
     "name": "Laterbase",
     "url": "https://laterbase.dev"
   },
   "homepage": "https://laterbase.dev/docs/plugin",
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://laterbase.dev/privacy",
   "userConfig": {
     "server_url": {
       "type": "string",
