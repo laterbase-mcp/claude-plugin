@@ -1,7 +1,7 @@
 {
   "name": "laterbase",
   "displayName": "Laterbase",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Laterbase in Claude Code: the MCP server, signed in with your account, and skills like /laterbase:quick and /laterbase:recommend.",
   "author": {
     "name": "Laterbase",
@@ -11,18 +11,10 @@
   "license": "MIT",
   "icon": ".claude-plugin/icon.png",
   "privacyPolicyUrl": "https://laterbase.dev/privacy",
-  "userConfig": {
-    "server_url": {
-      "type": "string",
-      "title": "Server URL",
-      "description": "Change it only to use a preview or local server.",
-      "default": "https://laterbase.dev"
-    }
-  },
   "mcpServers": {
     "laterbase": {
       "type": "http",
-      "url": "${user_config.server_url}/mcp"
+      "url": "https://laterbase.dev/mcp"
     }
   }
 }

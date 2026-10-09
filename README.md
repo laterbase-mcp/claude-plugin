@@ -23,8 +23,7 @@ This plugin connects Claude Code to Laterbase. It brings:
 ```sh
 claude plugin marketplace add \
   https://laterbase.dev/claude-code/marketplace.json
-claude plugin install laterbase@laterbase \
-  --config server_url=https://laterbase.dev
+claude plugin install laterbase@laterbase
 ```
 
 Then open `/plugin`, pick the laterbase server and press Enter to sign in. A free account is created the first time you sign in.
