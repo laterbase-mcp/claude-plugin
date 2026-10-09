@@ -1,7 +1,7 @@
 {
   "name": "laterbase",
   "displayName": "Laterbase",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Laterbase in Claude Code: the MCP server, signed in with your account, and skills like /laterbase:quick and /laterbase:recommend.",
   "author": {
     "name": "Laterbase",
